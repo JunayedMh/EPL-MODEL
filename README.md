@@ -18,6 +18,6 @@ This project leverages **10 seasons (2016-2026)** of Premier League data to pred
 - [cite_start]**Data Source:** [Football-Data.co.uk](http://www.football-data.co.uk/) [cite: 22]
 
 ## 📝 Conclusion & Future Work
-[cite_start]While shot volume and market odds are strong predictors[cite: 8, 14], future iterations will explore:
+While shot volume and market odds are strong predictors, future iterations will explore:
 1. **Poisson Distribution:** Modeling goal frequency as a discrete probability distribution.
 2. **xG Integration:** Incorporating 'Expected Goals' for higher granular accuracy.
