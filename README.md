@@ -1,2 +1,23 @@
-# portfolio
-A reository for my completed projects.
+# ⚽ English Premier League Match Predictor
+
+## 📊 Project Overview
+This project leverages **10 seasons (2016-2026)** of Premier League data to predict match outcomes (Win, Draw, Loss). Using a **Random Forest Classifier**, the model analyzes team form via rolling averages and market sentiment through bookmaker odds.
+
+### 🧠 Mathematical Approach
+- **Data Consolidation:** Aggregated 10 distinct CSV datasets into a single longitudinal master file.
+- **Temporal Sorting:** Normalized date formats to ensure chronological integrity.
+- [cite_start]**Feature Engineering:** Implemented rolling averages for key performance indicators (KPIs) like Shots on Target (HST/AST) and Goals (FTHG/FTAG)[cite: 8].
+- **Classification:** Utilized an ensemble method to mitigate variance in high-stochasticity sports data.
+
+## 📈 Key Results
+- **Validation Accuracy:** 49.53%
+- **Benchmark:** Successfully outperformed the baseline random guess probability of 33.3%.
+
+## 🛠️ Tools Used
+- **Python:** Pandas, Scikit-Learn, Matplotlib, Seaborn
+- [cite_start]**Data Source:** [Football-Data.co.uk](http://www.football-data.co.uk/) [cite: 22]
+
+## 📝 Conclusion & Future Work
+[cite_start]While shot volume and market odds are strong predictors[cite: 8, 14], future iterations will explore:
+1. **Poisson Distribution:** Modeling goal frequency as a discrete probability distribution.
+2. **xG Integration:** Incorporating 'Expected Goals' for higher granular accuracy.
